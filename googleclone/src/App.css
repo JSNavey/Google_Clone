@@ -4,14 +4,29 @@
   width: 100%;
 }
 
+.top-nav, .left-top-nav, .right-top-nav, .footer, .left-footer, .right-footer {
+  border: 1px solid blue;
+  display: flex;
+}
+
 .main-container {
-  border: 1px solid red;
   height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .google-logo {
-  border: 1px solid blue;
   margin-top: 12rem;
+}
+
+.search-area {
+  width: 30%;
+}
+
+.search-input {
+  width: 100%;
 }
 
 .footer {

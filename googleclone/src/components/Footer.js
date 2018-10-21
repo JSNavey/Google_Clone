@@ -4,7 +4,15 @@ class Footer extends Component {
   render() {
     return (
       <div className='footer'>
-        Footer
+        <div className='left-footer'>
+          <p>Advertising</p>
+          <p>Business</p>
+        </div>
+        <div className='right-footer'>
+          <p>Privacy</p>
+          <p>Terms</p>
+          <p>Settings</p>
+        </div>
       </div>
     );
   }
