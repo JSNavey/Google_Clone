@@ -6,8 +6,14 @@
 
 .top-nav, .left-top-nav, .right-top-nav, .footer, .left-footer, .right-footer {
   border: 1px solid blue;
-  display: flex;
+  display: flex;  
 }
+
+.right-top-nav, .right-footer {
+  border: 1px solid red;
+  
+}
+
 
 .main-container {
   height: 90.5%;
@@ -45,6 +51,7 @@
 button {
   height: 100%;
   width: 28%;
+  border-radius: 5px;
 }
 .footer {
   height: 2.8rem;
